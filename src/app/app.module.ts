@@ -7,6 +7,7 @@ import { SemaComponent } from './sema/sema.component';
 import { SemaFormComponent } from './sema-form/sema-form.component';
 import { SemaManenoComponent } from './sema-maneno/sema-maneno.component';
 import { SemaTarehePipe } from './sema-tarehe.pipe';
+import { SemaMsemoDirective } from './sema-msemo.directive';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SemaTarehePipe } from './sema-tarehe.pipe';
     SemaFormComponent,
     SemaManenoComponent,
     SemaTarehePipe,
+    SemaMsemoDirective,
     
   ],
   imports: [
