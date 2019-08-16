@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SemaComponent } from './sema/sema.component';
 import { SemaFormComponent } from './sema-form/sema-form.component';
+import { SemaManenoComponent } from './sema-maneno/sema-maneno.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SemaComponent,
-    SemaFormComponent
+    SemaFormComponent,
+    SemaManenoComponent
   ],
   imports: [
     BrowserModule,
