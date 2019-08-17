@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+/*Importing fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Livvic|Lora|Nanum+Gothic|Oxygen|Quicksand&display=swap');
+
+/*Font name control (TO DELETE BEFORE DEPLOYMENT*/
+/*font-family: 'Lora', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Livvic', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Oxygen', sans-serif;*/
+
+/*Styling the body for the on the home page*/
+body {
+
+}
+
+/*Font size*/
+
+h1 {
+
+}
+
+h2{
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+/*Extra styling*/
