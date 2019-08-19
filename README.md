@@ -26,6 +26,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Link
 
+Deployed site will be found here <https://hillarydalie.github.io/sema/>
 Quotations Projects application can be found here: <https://Hillarydalie.github.com/sema.git>
 
 ## Technologies Used
