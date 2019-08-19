@@ -4,7 +4,7 @@
 
 ## Description
 
-_This an sample application where users can create quotes they have encountered and have,in order
+This an sample application where users can create quotes they have encountered and have,in order
 to have those quotes voted on whether they are terrible, just there or are inspirational. A user will be able to:
 - Create a new quote.
 - Upvote or downvote a quote.
