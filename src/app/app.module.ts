@@ -1,28 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SemaComponent } from './sema/sema.component';
 import { SemaFormComponent } from './sema-form/sema-form.component';
-import { SemaManenoComponent } from './sema-maneno/sema-maneno.component';
-import { SemaTarehePipe } from './sema-tarehe.pipe';
-import { SemaMsemoDirective } from './sema-msemo.directive';
-
+import { SemaDescriptionComponent } from './sema-description/sema-description.component';
+import { SemaDatecountPipe } from './sema-datecount.pipe';
+import { LikeSemaComponent } from './like-sema/like-sema.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     SemaComponent,
     SemaFormComponent,
-    SemaManenoComponent,
-    SemaTarehePipe,
-    SemaMsemoDirective,
-    
+    SemaDescriptionComponent,
+    SemaDatecountPipe,
+    LikeSemaComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'semaTarehe'
+  name: 'dateCount'
 })
-export class SemaTarehePipe implements PipeTransform {
+export class DateCountPipe implements PipeTransform {
 
   transform(value: any, ...args: any[]): any {
     return null;

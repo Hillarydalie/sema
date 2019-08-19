@@ -1,34 +1,62 @@
-/*Importing fonts from google fonts*/
-@import url('https://fonts.googleapis.com/css?family=Livvic|Lora|Nanum+Gothic|Oxygen|Quicksand&display=swap');
+/*Import Fonts for the outlay*/
 
-/*Font name control (TO DELETE BEFORE DEPLOYMENT*/
-/*font-family: 'Lora', serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Livvic', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Oxygen', sans-serif;*/
-
-/*Styling the body for the on the home page*/
 body {
-
+    overflow-x: hidden;
+    background-image: url(../src/assets/images/interlaced.png);
 }
 
-/*Font size*/
-
-h1 {
-
+/*Delete confirmation button*/
+button#yesButton:hover {
+    background-color: red;
+    color: white;
 }
 
-h2{
-
+/*Delete ingnore button*/
+button#noButton:hover {
+    background-color: blue;
+    color: white;
 }
 
-h3 {
-
+/*Header having author Name*/
+.container.text-left.header {
+    padding-top: 5%;
 }
 
-p {
-
+/*Quote  box background*/
+div#quotecorner {
+    background: rgba(228, 193, 147, 0.8);
+    padding: 2% 0% 2% 0%;
+    margin: 2% 3%;
+}
+/*Navigation Bar*/
+ul#navbar {
+    display: flex;
+    align-items: flex-end;
 }
 
-/*Extra styling*/
+/*Quote section post generator*/
+li {
+    list-style-type: none;
+    background-color: transparent;
+    color: black;
+}
+
+div#snap {
+    padding-top: 2%;
+}
+
+/*Vote button*/
+button#likebutton {
+    padding-right: 7%;
+    margin-right: 3%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    text-orientation: sideways-right;
+    letter-spacing: normal;
+    font-size: x-large;
+    text-transform: none;
+}

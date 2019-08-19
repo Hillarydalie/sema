@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SemaManenoComponent } from './sema-maneno.component';
+import { LikeSemaComponent } from './like-sema.component';
 
-describe('SemaManenoComponent', () => {
-  let component: SemaManenoComponent;
-  let fixture: ComponentFixture<SemaManenoComponent>;
+describe('LikeSemaComponent', () => {
+  let component: LikeSemaComponent;
+  let fixture: ComponentFixture<LikeSemaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SemaManenoComponent ]
+      declarations: [ LikeSemaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SemaManenoComponent);
+    fixture = TestBed.createComponent(LikeSemaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
